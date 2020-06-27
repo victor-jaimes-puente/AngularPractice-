@@ -1,6 +1,11 @@
 app.controller('MainController', ['$scope', function ($scope) {
-    $scope.list = ['Workout', 'Clean', 'Study', 'Clean Car', 'Oil Change'];
-    $scope.addItem = function () {
-        $scope.list.push($scope.addToDo);
+    $scope.toDo = {
+        list: ['Workout', 'Clean', 'Study', 'Clean Car', 'Oil Change']
+    }
+    $scope.books = {
+        list: []
+    }
+    $scope.addItem = function (itemList, item) {
+        itemList.push($scope.addToDo);
     }
 }])
