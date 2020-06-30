@@ -1,6 +1,6 @@
 app.controller('MainController', ['$scope', function ($scope) {
     $scope.toDo = {
-        list: ['Workout', 'Clean', 'Study', 'Clean Car', 'Oil Change']
+        list: ['Workout', 'Clean', 'Study', 'Clean Car', 'Oil Change', 'Find Balance Place']
     }
     $scope.books = {
         list: []
